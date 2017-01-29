@@ -1,0 +1,113 @@
+
+
+html {
+  font-size: 100%;
+  
+}
+#bodyribbon {
+ 
+  background-color: lightgrey;
+  padding-left: 70px;
+  padding-right: 70px;
+  padding-top: 30px;
+  width: 700px;
+  border-radius: 10px;
+}
+
+.gucci {
+  width: 175px;
+  
+}
+body {
+  background: url("http://implantandoralsurgery.com/wp/wp-content/themes/enfold%207/images/background-images/noise-for-light-background.png");
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  align-content: center;
+  background-color: whitesmoke;
+}
+
+div {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1000;
+  display: block;
+  align-content: center;
+  
+}
+figcaption {
+  font-size: 1em;
+  font-family: 'Acme', sans-serif;
+  color: dimgrey;
+}
+
+#mark {
+    -webkit-box-shadow: 0 10px 6px -6px #777;
+    -moz-box-shadow: 0 10px 6px -6px #777;
+    box-shadow: 0 10px 6px -6px #777;
+  }
+  position:relative;       
+  -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, .3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+  -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+  box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.5) inset;
+}
+
+#mark:before, #mark:after {
+  content:"";
+  position:absolute; 
+  z-index:-1;
+  -webkit-box-shadow:0 0 20px rgba(0,0,0,0.8);
+  -moz-box-shadow:0 0 20px rgba(0,0,0,0.8);
+  box-shadow:0 0 20px rgba(0,0,0,0.8);
+  top:50%;
+  bottom:0;
+  left:10px;
+  right:10px;
+  -moz-border-radius:100px / 10px;
+  border-radius:100px / 10px;
+} 
+
+#mark:after {
+  right:10px; 
+  left:auto;
+  -webkit-transform:skew(8deg) rotate(3deg); 
+  -moz-transform:skew(8deg) rotate(3deg);     
+  -ms-transform:skew(8deg) rotate(3deg);     
+  -o-transform:skew(8deg) rotate(3deg); 
+  transform:skew(8deg) rotate(3deg);
+}
+
+#octacon {
+  padding-bottom: 8px;
+}
+
+footer {
+  color: dimgray;
+}
+
+h1 {
+  font-size: 25px;
+  font-family: 'Acme', sans-serif;
+  color: whitesmoke;
+  height:auto;
+  background-color: dimgrey;
+  padding-left: 7px;
+  padding-top: 3px;
+  border-left: 4px solid darkgrey;
+  
+}
+#sub {
+  margin-bottom: 33px;
+}
+
+p {
+  font-family: 'Fira Sans Extra Condensed', sans-serif;
+  color: dimgrey; 
+}
+
+article {
+  font-family: 'Fira Sans Extra Condensed', sans-serif;
+  font-size: 20px;
+  color: dimgrey;
+  
+}
